@@ -118,5 +118,7 @@ During this project I learned:
 - File Server Configuration
 - Shared Folder Permissions
 - Additional Workstations
+- Security Information and Event Management (SIEM)
+- Windows Event
 - Security Monitoring Enhancements
 - SIEM Integration
