@@ -189,4 +189,11 @@ Cybersecurity Student
 
 GitHub: https://github.com/Suga-thamil
 
-Cybersecurity Student
+## Conclusion
+
+This Active Directory Home Lab provided hands-on experience with deploying and managing a Windows domain environment. Key tasks included configuring Active Directory Domain Services, organizing users and computers with Organizational Units, implementing Group Policy Objects, and monitoring authentication events through Windows Security Logs.
+
+The lab also demonstrated how successful and failed logon attempts can be audited using Event IDs 4624 and 4625, reinforcing the importance of security monitoring in enterprise environments.
+
+This project strengthened my understanding of Windows administration, identity management, Group Policy, and security auditing.
+
