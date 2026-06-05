@@ -36,6 +36,10 @@ The purpose of this lab is to gain hands-on experience with:
 
 ---
 
+## Network Topology
+
+![Network Diagram](diagrams/network-topology.png)
+
 ## Technologies Used
 
 - Oracle VirtualBox
@@ -98,6 +102,48 @@ Relevant Event IDs:
 
 ---
 
+### Interactive Logon Banner
+
+Configured a legal notice displayed before user logon.
+
+![Interactive Logon Banner](screenshots/01-domain-controller/Interactive_Logon_Banner.png)
+
+### Audit Logon Policy
+
+Enabled auditing for successful and failed logons.
+
+![Audit Logon Policy](screenshots/01-domain-controller/Audit_Logon_Policy.png)
+
+### Group Policy Refresh
+
+Applied the updated policy settings on CLIENT01.
+
+![GPUpdate Force Success](screenshots/01-domain-controller/GPUpdate_Force_Success.png)
+
+### Successful Logon Event (Event ID 4624)
+
+Verified successful domain authentication events.
+
+![Event 4624 Details](screenshots/01-domain-controller/Event4624_Logon_Details.png)
+
+![Event 4624 Target User](screenshots/01-domain-controller/Event4624_Target_User.png)
+
+![Event 4624 Target Domain](screenshots/01-domain-controller/Event4624_Target_Domain.png)
+
+![Event 4624 Source IP](screenshots/01-domain-controller/Event4624_Source_IP.png)
+
+### Failed Logon Event (Event ID 4625)
+
+Verified failed authentication attempts.
+
+![Event 4625 Failed Logon](screenshots/01-domain-controller/Event4625_Failed_Logon.png)
+
+### Domain Admin Membership
+
+Verified administrative privileges.
+
+![Domain Admin Membership](screenshots/01-domain-controller/Domain_Admins_Group_Membership.png)
+
 ## Lessons Learned
 
 During this project I learned:
@@ -113,12 +159,43 @@ During this project I learned:
 
 ## Future Improvements
 
-- Password Policy GPO
-- Account Lockout Policy
-- File Server Configuration
-- Shared Folder Permissions
-- Additional Workstations
-- Security Information and Event Management (SIEM)
-- Windows Event
-- Security Monitoring Enhancements
+- Implement Password Complexity Policies
+- Configure Account Lockout Policies
+- Deploy a Windows File Server
+- Configure Shared Folder Permissions
+- Add Additional Domain-Joined Workstations
+- Integrate a SIEM Platform (Splunk or Wazuh)
+- Centralize Windows Event Log Collection
+- Implement Group Policy Security Hardening
+
+## Skills Demonstrated
+
+- Active Directory Domain Services (AD DS)
+- DNS Configuration
+- Organizational Unit Management
+- User and Group Administration
+- Domain Join Operations
+- Group Policy Management
+- Windows Security Auditing
+- Event Log Analysis
+- Kerberos Authentication
+- Windows Server Administration
+
+## Author
+
+**Suganthi Sona**
+
+Cybersecurity Student
+
+GitHub: https://github.com/Suga-thamil
+
+## Conclusion
+
+This Active Directory Home Lab provided hands-on experience with deploying and managing a Windows domain environment. Key tasks included configuring Active Directory Domain Services, organizing users and computers with Organizational Units, implementing Group Policy Objects, and monitoring authentication events through Windows Security Logs.
+
+The lab also demonstrated how successful and failed logon attempts can be audited using Event IDs 4624 and 4625, reinforcing the importance of security monitoring in enterprise environments.
+
+This project strengthened my understanding of Windows administration, identity management, Group Policy, and security auditing.
+
+curity Monitoring Enhancements
 - SIEM Integration
