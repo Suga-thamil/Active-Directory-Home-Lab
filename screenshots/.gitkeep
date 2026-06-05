@@ -1,1 +1,6 @@
-
+screenshots/
+├── ad-installation/
+├── users-and-groups/
+├── domain-join/
+├── gpo-auditing/
+└── event-analysis/
